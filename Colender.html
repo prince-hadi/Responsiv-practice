@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .calender-parent{
+            border: 3px solid blue;
+            padding: 15px;
+            width: 50%;
+            margin: auto;
+            margin-top: 200px;
+        }
+        .Calender{
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            row-gap: 5px;
+            column-gap: 5px;
+          
+
+        }
+        .date , .day{
+            background-color: aquamarine;
+            height: 70px;
+            border-radius: 5px;
+              display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5em;
+            border: 2px solid rgb(171, 24, 24);
+
+
+        }
+
+        .day{
+            background-color: antiquewhite;
+        }
+        .title{
+            background-color: blanchedalmond;
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            border: 2px solid rgb(240, 17, 222);
+
+        }
+        .title h1{
+            margin: 0px ;
+            color: blue;
+        }
+        body{
+            text-align: center;
+            margin: auto;
+            align-items: center;
+            height: 1000px;
+        }
+
+        #red{
+            color: red;
+        }
+
+        .month-year{
+            display: flex;
+            justify-content: space-around;
+        }
+        .month-year h2{
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="calender-parent">
+    <div class="title"><h1>My Parsonal Calender</h1></div>
+    <div class="month-year">
+        <h2>
+            <i class="fa-solid fa-less-than"></i> July <i class="fa-solid fa-greater-than"></i>
+        </h2>
+        <h2>
+           <i class="fa-solid fa-less-than"></i> 2025 <i class="fa-solid fa-greater-than"></i>
+        </h2>
+    </div>
+    <div class="Calender">
+        <div class="day">S</div>
+        <div class="day">M</div>
+        <div class="day">T</div>
+        <div class="day">W</div>
+        <div class="day">T</div>
+        <div class="day"id="red">F</div>
+        <div class="day">S</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date">1</div>
+        <div class="date" id="red">2</div>
+        <div class="date">3</div>
+        <div class="date">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date" id="red">9</div>
+        <div class="date">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date">15</div>
+        <div class="date"id="red">16</div>
+        <div class="date">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date"id="red">23</div>
+        <div class="date">24</div>
+        <div class="date">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date"id="red">30</div>
+        <div class="date">31</div>
+        
+    </div>
+    </div>
+</body>
+</html>
